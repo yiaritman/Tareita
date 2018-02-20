@@ -24,12 +24,13 @@ body{
 }
 
 .cont-inicial{
+    height: 20%;
+    background: black;
     color: white;
     font-size: 12px;
-    background-color: black
 }
 
-.parr-1{
+#icono-email{
     float: left;
     padding: 10px 0px 10px 40px;
 }
@@ -47,21 +48,32 @@ body{
     clear: both;
 }
 
-
 .logos-contenedor{
+    width: 100%;
+    height: 80%; 
     position: relative;
+    padding: 20px 50px;
+    left: 0px;
+    top: 0px;
 }
+ #menu-bar{
+        display: none;
+        
+    }
 
 .logos{
+    position: relative;
     float: left;
-    margin-top: 20px;
-    margin-left: 40px;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
 }
 
 .menu-principal{
+    position: relative;
     float: right;
-    margin-top: 35px;
-    margin-right: 80px;
+    padding: 15px 0px;
+    text-align: center;
 }
 
 .menu-principal li{
@@ -71,65 +83,39 @@ body{
     font-size: 13px;
 }
 
-div .icon-cart{
-    color: black;
-    display: inline-block;
-    border-left: 1px solid #666666;
-    padding-left: 15px;
-    font-size: 13px;
+.menu-principal li:hover{
+    color: green;
+}
+
+.icon-basket{
     position: absolute;
-    top: 48px;
-    right: 40px;
-}
-.portada{
-    width: 100%;
-    height: 800px;
-    background-image: url(../img/portada.jpg);
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-}
-
-section .titulo, .parr-3, .parr-4, .boton-1{
-    margin-left: 60px;
+    right: 0px;
+    width: 50px;
+    height: 22px;
+    top: 50%;
+    margin-top: -15px;
+    padding: 0px 10px;
+    font-size: 13px;
+    line-height: 22px;
+    border-left: 1px solid #e0e0e0;
+    font-weight: 500;
+    color: #666666;
+   
 }
 
-.titulo{
-    margin-top: 350px;
-    font-size: 35px;
-    color: darkcyan;
-    letter-spacing: 5px;
-    line-height: 60px;
-}
-
-.parr-3{
-    line-height: 35px;
-}
-
-.boton-1{
-    display: inline-block;
-    padding: 15px 40px;
-    margin-top: 40px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    
-}
 /* ----seccion2-------*/
 
 .seccion2{
     position: relative;
     width: 100%;
     height: 800px;
-    margin: 0 auto;
     background-color: white;
-    padding:  120px 10px 90px;
+    margin: 0 auto;
+    padding:  120px 10px ;
 }
-
  
 .sec-caja1{
-    
-    width: 100%;
+    width: auto;
     height: 100px;
     padding-left: 100px;
     display:inline-block;
@@ -137,9 +123,12 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 }
 
 .sec-caja2{
-    width: 755px;
+    width: 70%;
     height: 490px;
     padding-left: 100px;
+    position: absolute;
+    z-index: 2;
+    font-family:'Lato', sans-serif;
 }
 
 .estilo1{
@@ -148,39 +137,30 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     color: #46a5e5;
     line-height: 30px;
     margin-bottom: 10px;
-    font-weight: 100px;
-    
+    font-weight: 100px; 
 }
 
 .estilo2{
     color: #a1c436;
     font-weight: 700;
     font-size: 30px;
-    
 }
 
 .raya{
     border-bottom: 1px solid black;
-    padding-bottom: 12px;
+    padding-bottom: 10px;
     line-height: 1.4em;
 }
-
-.sec-caja2{
-    position: absolute;
-    z-index: 2;
-    font-family:'Lato', sans-serif;
-    
-}
-
 .tex0{
+   
     font-weight: 600;
     margin-bottom: 20px;
-    color: #111111;
     font-size: 15px;
     line-height: 24px;
 }
 
 .tex1{
+    
     font-weight: 400;
     margin-bottom: 30px;
     color: #666666;
@@ -191,17 +171,13 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 .tex2{
     font-weight: 600;
     margin-bottom: 20px;
-    color:#111111;
     line-height: 3.8em;
-    font-size: 14px;
-        
+    font-size: 14px;    
 }
 
 .caja2-0-cont{
     position: relative;
     margin-top: 115px;
-    margin-right: 20px;
-   
 }
 
 .contenido-A{
@@ -262,7 +238,7 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 }
 
 .sec-caja3{
-    width: 495px;
+    width: 35%;
     height: 500px;
     position: absolute;
     right: 0px;
@@ -277,8 +253,9 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 /* ----seccion3-------*/
 .seccion3{
     width: 100%;
-    height: 724px;
+    height: 824px;
     color: white;
+    position: relative;
 }
 .sec0-imagen3{
     width: 50%;
@@ -354,6 +331,7 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     width: 50%;
     height: 100%;
     float: left;
+    
 }
 
 .sec4-h3{
@@ -412,16 +390,15 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     height: 100%;
     float: right;  
     text-align: center;
+    padding: 50px;
 }
 .video{
-    visibility: visible;
-    margin: 80px;
-}
-.sec4-video{
-    
     width: 100%;
-    height: 100%;
+    height: auto;
+    text-align: center;
+    margin-right: -100px;
 }
+
 
 /* ----seccion5-------*/
 
@@ -534,7 +511,7 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 }
 
 .sec6-h3{
-    padding:  100px 0px 10px 40px;
+    padding:100px 0px 10px 20px;
     font-family: 'Courgette', cursive;
     font-size: 24px;
     color: #46a5e5;
@@ -546,7 +523,7 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     color: #333333;
     line-height: 1.4em;
     padding-bottom: 15px;
-    padding-left: 40px;
+    padding-left: 20px;
 }
 .sec6-h2 span {
     color: #a1c436;
@@ -555,19 +532,17 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 
 .sec6-fila{
     width: 100%;
-    height: 420px;
-    text-align: center;
-    
-    
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    text-align: center; 
 }
 
 .fila1-1{
-    width: 370px;
+    width: 390px;
     height: 260px;
     position: relative;
-    background-image: url(../img/blog-image-1.jpg);
-    background-size: cover;
-    background-position: center;
+    text-align: center;
     display: inline-block;
     z-index: 1px;   
 }
@@ -576,38 +551,17 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     position: absolute;
     width: 330px;
     height: 244px;
-    right: 0px;   
+    right: 10px;   
     bottom: -115px;
     text-align: center;
     padding: 30px 30px 30px;
-    margin: -128px 20px 0px;
+    margin-right: 20px;
     background: #ffffff;
     border: 1px solid #e0e0e0;
     border-radius: 3px;
     z-index: 2px;
 }
 
-.fila1-2{
-    width: 370px;
-    height: 260px;
-    position: relative;
-    background-image: url(../img/blog-image-2.jpg);
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    z-index: 1px;   
-}
-
-.fila1-3{
-    width: 370px;
-    height: 260px;
-    position: relative;
-    background-image: url(../img/blog-image-3.jpg);
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    z-index: 1px;   
-}
 .cont1-sec6 h3{
     cursor: pointer;
     font-size: 15px;
@@ -742,7 +696,7 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 
 .footer{
     width: 100%;
-    height: 450px;
+    height: auto;
     background: #333;;
 }
 
@@ -780,6 +734,9 @@ section .titulo, .parr-3, .parr-4, .boton-1{
     padding: 0px 20px 10px;
 }
 
+.redes-sociales span{
+   color: #999999;
+}
 .fot1{
     font-size: 15px;
     font-weight: 700;
@@ -788,17 +745,19 @@ section .titulo, .parr-3, .parr-4, .boton-1{
 }
 
 .font-cont{
+    
     width: 100%;
 }
 
 .font-cont-img {
-   width: 23%;
+   width: 40%;
+   height: auto;
    float: left;
    margin: 5px 0px; 
 }
 
 .fot-cont-p{
-    width: 72%;
+    width: 55%;
     float: right;
     margin: 5px;
     line-height: 20px;

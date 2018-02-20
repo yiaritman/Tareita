@@ -1,53 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
     <title>Proyecto Yud</title>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">}
-    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" charset="utf-8">
+     $(window).load(function() {
+       $('.flexslider').flexslider({
+    	   touch: true,
+    	   pauseOnAction: false,
+    	   pauseOnHover: false,
+       });
+     });
+</script>
+    
 </head>
 <body>
+  
    <!--cabezera-->
     <div class="contenedor-general">
-       <header class="encabezado">      
+       <header class="encabezado" >      
            <div class="cont-inicial">
-               <img src="" alt="">
-               <p class="parr-1">info@shifencoach.com</p>
+               <p id="icono-email" class=" icon-mail">info@shifencoach.com</p>
                <p class="parr-2">For free consultation <span>+(012) 345 6709</span></p>
                <div class="limpiar"></div>
            </div> 
            <div class="logos-contenedor">
-           
-           <img class="logos" src="img/logo.png" alt="">
-           
-           <nav class="menu-principal">
-               <ul>
-                   <li>HOME</li>
-                   <li>ABOUTUS</li>
-                   <li>SERVICES</li>
-                   <li>FEATURES</li>
-                   <li>EVENTS</li>
-                   <li>SHOP</li>
-                   <li>BLOG</li>
-                   <li>CONTACT</li>
-                   
-               </ul>
-               <div class="limpiar"></div>
-           </nav>
-           <a  class="icon-cart" href=""></a>
+                 <div class="logos-contenedor-1">
+                  <img class="logos" src="img/logo.png" alt="">
+                  <input type="checkbox" id="menu-bar">
+                  <label class="icon-align-justify" for="menu-bar"></label>
+                  <nav class="menu-principal">
+                   <ul>
+                       <li>HOME</li>
+                       <li>ABOUTUS</li>
+                       <li>SERVICES</li>
+                       <li>FEATURES</li>
+                       <li>EVENTS</li>
+                       <li>SHOP</li>
+                       <li>BLOG</li>
+                       <li>CONTACT</li>
+                   </ul>
+                   <div class="limpiar"></div>
+               </nav>
+               <a  class="icon-basket" href=""></a>
+                 </div>  
            </div>
        </header>
        <!--sección 1-->
-       <section class="portada">
-           <h1 class="titulo">HEALTH AND WELLBEING</h1>
-           <P class="parr-3">Liberal, collaborative consumption, fluctuation social analysis</p>
-           <p class="parr-4">rural united nations outcomes foundation deep engagement</P>
-           <div class="boton-1">LEARN MORE</div>
-       </section>
+      <div class="flexslider">
+		<ul class="slides">
+			<li>
+               <img src="img/portada.jpg" alt="">
+               <section class="flex-caption">
+				  <h1 class="titulo">HEALTH AND WELLBEING</h1>
+                  <p class="parr-3">Liberal, collaborative   consumption, fluctuation social   analysis</p>
+                  <p class="parr-4">rural united nations   outcomes foundation deep engagement</p>
+                  <div class="boton-1">LEARN MORE</div>
+               </section>
+			</li>
+			<li>
+               <img src="img/portada2.jpg" alt="">
+               <section class="flex-caption-2">
+				  <h1 class="flexh1">HEALTH AND WELLBEING</h1>
+                  <p class="flexp">Liberal, collaborative   consumption, fluctuation social   analysis</p>
+                  <p class="flexp1">rural united nations   outcomes foundation deep engagement</p>
+                  <div class="boton-1-1">LEARN MORE</div>
+               </section>
+			</li>
+			<li>
+               <img src="img/portada3.jpg" alt="">
+               <section class="flex-caption">
+				  <h1 class="titulo">HEALTH AND WELLBEING</h1>
+                  <p class="parr-3">Liberal, collaborative   consumption, fluctuation social   analysis</p>
+                  <p class="parr-4">rural united nations   outcomes foundation deep engagement</p>
+                  <div class="boton-1">LEARN MORE</div>
+               </section>
+			</li>
+		</ul>
+	</div>
+       
        <!--sección 2-->
        <section class="seccion2">
              <div class="sec-caja1">
@@ -65,34 +107,31 @@
                  <div class="caja2-0-cont">
                      <div class="contenido-A">
                          <div class="caja-A">
-                             <span class="ico1"></span>
+                             <span class="icon-paper-plane-empty"></span>
                          </div>
                          Health Coach
                      </div>
                      <div class="contenido-B">
                          <div class="caja-A">
-                             <span class="ico1"></span>
+                             <span class="icon-users"></span>
                          </div>
                          Balanced Body & Mind
                      </div>
                      <div class="contenido-C">
                          <div class="caja-A">
-                             <span class="ico1"></span>
+                             <span class="icon-chat"></span>
                          </div>
                          Individual Support
                      </div>
                      <div class="contenido-D">
                          <div class="caja-A">
-                             <span class="ico1"></span>
+                             <span class=" icon-lightbulb"></span>
                          </div>
-                         <p class="parrafo-2">People & Relationship</p>
+                         People & Relationship
                      </div>
                  </div>
              </div>
-          
-          <div class="sec-caja3">
-              
-          </div>
+          <div class="sec-caja3"></div>
        </section>
         <!--sección 3-->
         <section class="seccion3">
@@ -118,10 +157,10 @@
                  <a  class="sec4-btn" href="">READ MORE STORIES</a>
             </div>
             
-            <div class="sec4-contemido2">
+            <figure class="sec4-contemido2">
                 <img class="video" src="img/blog-image-3.jpg" alt="">
                 <a  class="sec4-video" href="https://www.youtube.com/watch?v=0o0kNeOyH98"></a>
-            </div>
+            </figure>
             <div class="limpiar"></div>
         </section>
         <!--sección 5-->
@@ -182,36 +221,45 @@
                      <span>Latest</span> News & Articles
                  </h2>
                  <div class="sec6-fila">
+                    <div class="fila1-1">
+                             <figure >
+                                 <img class="img-sec6-fila" src="img/blog-image-1.jpg" alt="">
+                             </figure>
+                             <div class="cont1-sec6">
+                                <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
+                                <ul class="sec6-lis">
+                                    <li><span class="icon-calendar"></span>05 Aug. 16</li>
+                                    <li><span class=" icon-chat"></span>0 comment</li>
+                                </ul>
+                                <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
+                             </div>   
+                     </div>
                      <div class="fila1-1">
-                        <div class="cont1-sec6">
-                            <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
-                            <ul class="sec6-lis">
-                                <li><span class="sec6-icon1"></span>05 Aug. 16</li>
-                                <li><span class="sec6-icon2"></span>0 comment</li>
-                            </ul>
-                            <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
-                        </div>
+                             <figure >
+                                 <img class="img-sec6-fila"  src="img/blog-image-2.jpg" alt="">
+                             </figure>
+                            <div class="cont1-sec6">
+                                <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
+                                <ul class="sec6-lis">
+                                    <li><span class="icon-calendar"></span>05 Aug. 16</li>
+                                    <li><span class="icon-chat"></span>0 comment</li>
+                                </ul>
+                                <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
+                            </div>
                      </div>
-                     <div class="fila1-2">
-                        <div class="cont1-sec6">
-                           <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
-                            <ul class="sec6-lis">
-                                <li><span class="sec6-icon1"></span>05 Aug. 16</li>
-                                <li><span class="sec6-icon2"></span>0 comment</li>
-                            </ul>
-                            <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
-                        </div>
-                     </div>
-                     <div class="fila1-3">
-                        <div class="cont1-sec6">
-                           <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
-                            <ul class="sec6-lis">
-                                <li><span class="sec6-icon1"></span>05 Aug. 16</li>
-                                <li><span class="sec6-icon2"></span>0 comment</li>
-                            </ul>
-                            <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
-                        </div>
-                     </div>
+                     <div class="fila1-1">
+                             <figure >
+                                 <img class="img-sec6-fila" src="img/blog-image-3.jpg" alt="">
+                             </figure>
+                            <div class="cont1-sec6">
+                                <h3>Philanthropy fight against malnutrition social entrepreneurship</h3>
+                                <ul class="sec6-lis">
+                                    <li><span class="icon-calendar"></span>05 Aug. 16</li>
+                                    <li><span class="icon-chat"></span>0 comment</li>
+                                </ul>
+                                <p>Philanthropy fight against malnutrition entrepreneurship advancement accessibility crisis situation.</p>
+                            </div>
+                      </div>
                  </div>
                </section>
         <!--sección 7-->
@@ -243,30 +291,32 @@
                              <p class="fot-parrafo">Medical supplies public service courageous United Nations complexity working families impact. Democracy disrupt transform the world; rural development.</p>
                              <div class="redes-sociales">
                                  Follow :
-                                 <a href=""><span class="facebook"></span></a>
-                                 <a href=""><span class="twitter"></span></a>
-                                 <a href=""><span class="google"></span></a>
-                                 <a href=""><span class="instagram"></span></a>
+                                 <a href=""><span class="icon-facebook"></span></a>
+                                 <a href=""><span class="icon-twitter"></span></a>
+                                 <a href=""><span class="icon-gplus"></span></a>
+                                 <a href=""><span class="icon-instagram"></span></a>
                              </div>
                         </div>
                         <div class="main01">
                             <h2 class="fot1">RECENT CLASSES</h2>
                             <div class="fot-cont">
                                 <div >
-                                    <img class="font-cont-img" src="img/post-thumb-1.jpg" alt="">
+                                   <figure class="font-cont-img">
+                                    <img  src="img/post-thumb-1.jpg" alt=""></figure>
                                     <p class="fot-cont-p">Investment accessibility, new approaches takeholders.</p>
                                 </div>
                                 <div class="limpiar"></div>
-                                <p class="calendario">21.06.2.016</p> 
+                                <p class=" icon-calendar">21.06.2.016</p> 
                                 
                             </div>  
                             <div class="fot-cont">
                                 <div >
-                                    <img class="font-cont-img" src="img/post-thumb-2.jpg" alt="">
+                                    <figure class="font-cont-img">
+                                        <img  src="img/post-thumb-2.jpg" alt=""></figure>
                                     <p class="fot-cont-p">Investment accessibility, new approaches takeholders.</p>
                                 </div>
                                 <div class="limpiar"></div>
-                                <p class="calendario1">21.06.2.016</p> 
+                                <p class="icon-calendar">21.06.2.016</p> 
                                 
                             </div>                                   
                         </div>
@@ -284,9 +334,9 @@
                            <div class="img-fot">
                             <h2 class="fot1">CONTACT INFO</h2>
                             <ul class="lista-fot">
-                                <li><span></span> +(012) 345 6789</li>
-                                <li><span></span> Email: info@shifencoach.com</li>
-                                <li class="arreglo"><span></span> Office: 1234 Bunker Street, Melbourne, Australia</li>   
+                                <li><span class="icon-phone"></span> +(012) 345 6789</li>
+                                <li><span class="icon-mail"></span> Email: info@shifencoach.com</li>
+                                <li class="arreglo"><span class="icon-paper-plane-empty"></span> Office: 1234 Bunker Street, Melbourne, Australia</li>   
                             </ul>
                             </div>
                         </div>

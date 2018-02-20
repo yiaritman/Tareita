@@ -1,0 +1,1394 @@
+@media screen and (min-width: 1200px) and (max-width: 1395px){
+/*------encabezado2-----------*/ 
+    .logos-contenedor-1 label{
+       display: none;
+    }
+    
+/*--------------------*/
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1220px){
+.contenedor-general{
+	width: 100%;
+}
+    
+}
+
+@media screen and (min-width: 0px) and (max-width: 1200px){
+.contenedor-general{
+	width: 100%;
+}
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1200px){
+    
+/*------encabezado2-----------*/ 
+    .logos-contenedor-1 label{
+       display: none;
+    }
+    
+/*--------------------*/
+/* ----seccion2-------*/   
+.sec-caja3{
+    height: 400px;
+    background-image:url(../img/image-1-1.jpg); 
+}
+
+.caja2-0-cont{
+    margin-right: 30px;    
+}
+/*-----------------*/
+/* --seccion3*/
+.sec0-imagen3{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+.sec1-imagen3{
+    width: 100%;
+    height: 50%;
+    float:none;  
+    padding-top: 40px;
+} 
+    
+.sec3-contenido{
+    padding: 50px;
+}    
+    
+.sec3-boton{
+    margin-top: 0px;
+}
+/*-----------------*/
+/* ----seccion5-------*/
+
+.section5{
+    height: 600px;
+}
+
+.filas{
+    height: 520px;
+    text-align: center;    
+}
+
+.fila1{
+    width: 520px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+/*-----------------*/    
+/* ----seccion6-------*/
+
+.seccion6{
+    height: 1350px;
+}
+    
+.sec6-h3{
+    padding:50px 0px 10px 20px;
+    font-size: 20px;
+}
+.sec6-h2{
+    font-size: 22px;
+}
+  
+.sec6-fila{
+    height: auto;
+}
+
+.fila1-1{
+    width: 70%;
+    height: 150px;   
+}
+    
+.img-sec6-fila{
+    position: relative;
+    width: 95%;
+    height: 300px;
+    z-index: 1px; 
+    margin-bottom: 100px;
+}
+    
+.cont1-sec6{
+    width: 80%;
+    height: 200px;
+    margin-right: 60px;
+    padding: 30px;
+    bottom: -200px;
+}
+
+/*-----------------*/
+/* ----seccion7-------*/    
+
+.seccion7{
+    width: 100%;
+    height: 824px;
+} 
+    
+ .sec7{
+    width: 100%;
+    height: 50%;
+    padding: 50px 20px ;
+    float: none;
+}
+
+.sec7-imagen{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+/*-----------------*/    
+/* ----seccion8-------*/
+.font-cont-img {
+   width: 80px;
+   float: none;
+   margin: 0px; 
+}
+
+.fot-cont-p{
+    width: 100%;
+    float: none;
+    margin: 5px;
+    line-height: 20px;
+}
+    
+/*-----------------*/    
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1090px){
+    
+.section5{
+    height: 1050px;
+}
+
+.filas{
+    height: 900px;  
+}
+
+.fila1{
+    width: 80%;
+    height: 200px;
+    margin: 10px; 
+}
+   
+}
+
+@media screen and (min-width: 600px) and (max-width: 1020px){
+    
+    
+  /*------encabezado1-----------*/
+
+.encabezado{
+    margin-bottom: -75px;
+}
+.cont-inicial{
+    height: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px ;
+}
+    
+#icono-email{
+    float: none;
+    display: block;
+    padding: 10px 0px
+}
+
+.parr-2{
+    float: none;
+    display: block;
+    padding: 5px 0px 0px 0px;
+}
+/*-------------------------*/ 
+/*------encabezado2-----------*/ 
+    #menu-bar{
+        display: none;
+    }
+    
+    .logos-contenedor-1 label{
+        float: right;
+        font-size: 24px;
+        margin: 30px 0;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    
+  .logos-contenedor{
+    height:100px;
+    width: 100%;
+    background: #223555;
+    color: white;
+    position: fixed;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 100;  
+}
+ .logos-contenedor-1{
+        width: 98%;
+        margin:auto;
+     display: table;   
+    }
+
+.logos{
+    width: 200px;
+    float: left;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+
+.menu-principal{
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: #223555;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu-principal li{
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+    
+.menu-principal li:hover{
+        background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked ~ .menu-principal {
+    transform: translateX(0%);
+}
+
+.icon-basket{
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 22px;
+    top: 30px;
+    margin-top: 0px;
+    padding: 0px 5px;
+    font-size: 13px;
+    line-height: 22px;
+    border-left: 1px solid #e0e0e0;
+    font-weight: 500;
+    color: #666666;
+}
+    
+/*-------------------------*/  
+    
+/* ----seccion4-------*/
+.seccion4{
+    height: auto;
+    padding: 50px 90px;
+}
+    
+.sec4-contenido{
+    width: 100%;
+    height: auto;
+    float: none;
+}
+    
+.sec4-contemido2{
+    width: 100%;
+    height: auto;
+    float: none;  
+}
+    
+.video{
+   margin-right: 0px;   
+}
+
+/*-----------------*/
+/* --seccion2*/
+    
+.seccion2{
+    height: 800px;
+    padding:  50px 10px ;
+}    
+.sec-caja1{
+    display: block;
+       padding-left: 50px;
+}
+.sec-caja2{
+    width: auto;
+    padding-left: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}    
+    
+.caja2-0-cont{
+    position: relative;
+    margin-top: 115px;
+    margin-right: 30px;
+   
+}
+    
+.sec-caja3{
+    width: 0%;
+    height: 0px;
+    position: none;
+    background-image: url();
+}
+    
+    
+/*-----------------*/
+/* --seccion3*/
+.sec0-imagen3{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+.sec1-imagen3{
+    width: 100%;
+    height: 50%;
+    float:none;  
+    padding-top: 40px;
+}   
+    
+.sec3-contenido{
+    padding: 40px;
+    font-size: 24px;
+}    
+    
+.sec3-boton {
+    margin-top: -50px;   
+}
+/*-----------------*/
+/* ----seccion5-------*/
+.section5{
+    height: 1120px;
+}
+    
+.sec5-cont-h3{
+    padding-top: 20px;
+}
+
+.filas{
+    height: 1000px;        
+}
+
+.fila1{
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+}    
+    
+/*-----------------*/        
+/* ----seccion6-------*/
+.seccion6{
+    height: 1350px;
+}
+    
+.sec6-h3{
+    padding:50px 0px 10px 20px;
+    font-size: 20px;
+}
+.sec6-h2{
+    font-size: 22px;
+}
+  
+.sec6-fila{
+    height: auto;
+}
+
+.fila1-1{
+    width: 70%;
+    height: 150px;   
+}
+    
+.img-sec6-fila{
+    position: relative;
+    width: 95%;
+    height: 250px;
+    z-index: 1px; 
+    margin-bottom: 150px;
+}
+    
+.cont1-sec6{
+    width: 80%;
+    height: 200px;
+    margin-right: 40px;
+    padding: 25px;
+    bottom: -200px;
+}
+
+/*-----------------*/   
+    
+/* ----seccion7-------*/    
+
+.seccion7{
+    width: 100%;
+    height: 824px;
+} 
+    
+ .sec7{
+    width: 100%;
+    height: 50%;
+    padding: 50px 20px ;
+    float: none;
+}
+
+.sec7-imagen{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+/*-----------------*/    
+/* ----seccion8-------*/
+    
+.main01{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-top: 20px; 
+    display: block;
+    padding: 10px;
+}    
+/*-----------------*/     
+    
+}
+@media screen and (min-width: 600px) and (max-width: 800px){
+/* ----seccion2-------*/   
+.seccion2{
+    height: 950px;
+    padding:  50px 10px ;
+}     
+
+.sec-caja1{
+    display: block;
+    padding-left: 50px;
+}    
+    
+.contenido-B{
+    width: auto;
+    top: 105px;
+    left: 0px;  
+}    
+    
+.contenido-D {
+    width: auto;
+    top: 205px;
+    left: 0px;
+}
+ 
+.sec-caja2{
+    width: auto;
+    padding-left: 50px;
+    margin: 0 auto;
+    display: inline-block;
+}     
+    
+.sec-caja3{
+    width: 0%;
+    height: 0px;
+    position: none;
+    background-image: url();
+}
+    
+/*-----------------*/  
+ 
+/*------seccion8------*/
+    
+.footer{
+    float: left
+}
+.footer-main{
+    width: 100%;
+    padding: 0px ;
+    color: #999999;
+    font-size: 14px;  
+    margin-top: 20px;
+}    
+    
+.main01{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    float: none;
+}
+
+.fot-cont-p{
+   font-size: 15px; 
+}
+
+/*-----------------*/ 
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    
+/*------encabezado1-----------*/
+
+.encabezado{
+    margin-bottom: -75px;
+}
+.cont-inicial{
+    height: 50%;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px ;
+}
+    
+#icono-email{
+    float: none;
+    display: block;
+    padding: 10px 0px
+}
+
+.parr-2{
+    float: none;
+    display: block;
+    padding: 5px 0px 0px 0px;
+}
+/*-------------------------*/ 
+/*------encabezado2-----------*/ 
+    #menu-bar{
+        display: none;
+    }
+    
+    .logos-contenedor-1 label{
+        float: right;
+        font-size: 24px;
+        margin: 30px 0;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    
+  .logos-contenedor{
+    height:100px;
+    width: 100%;
+    background: #223555;
+    color: white;
+    position: fixed;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 100;  
+}
+ .logos-contenedor-1{
+        width: 98%;
+        margin:auto;
+     display: table;   
+    }
+
+.logos{
+    width: 190px;
+    float: left;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+
+.menu-principal{
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: #223555;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu-principal li{
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+    
+.menu-principal li:hover{
+        background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked ~ .menu-principal {
+    transform: translateX(0%);
+}
+
+.icon-basket{
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 22px;
+    top: 30px;
+    margin-top: 0px;
+    padding: 0px 5px;
+    font-size: 13px;
+    line-height: 22px;
+    border-left: 1px solid #e0e0e0;
+    font-weight: 500;
+    color: #666666;
+}
+    
+/*-------------------------*/ 
+         
+
+ /* --seccion-portada*/ 
+.titulo {
+    font-size: 30px;
+}
+ /*______________*/   
+/* --seccion2*/  
+.seccion2{
+    height: 1100px;
+    padding: 50px 0px ;
+}  
+    
+.sec-caja1{
+    width: auto;
+    height: auto;
+    padding-left: 50px; 
+}   
+
+.sec-caja2{
+    width: auto;
+    height: auto;
+    padding-left: 50px; 
+}  
+.tex0{
+    font-size: 14px;
+    
+}  
+.tex1{
+    margin-bottom: 0px;
+     font-size: 13px;
+}
+    
+.caja2-0-cont{
+    height: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 0px;
+    font-size: 15px; 
+}   
+
+.contenido-B{
+    width: auto;
+    top: 105px;
+    left: 0px;  
+}    
+    
+.contenido-D {
+    width: auto;
+    top: 205px;
+    left: 0px;
+}
+    
+.sec-caja3{
+   background-image:url();
+    position: none;
+}
+    
+/*-----------------*/
+/* --seccion3*/
+.sec0-imagen3{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+.sec1-imagen3{
+    width: 100%;
+    height: 50%;
+    float:none;  
+    padding-top: 40px;
+}
+    
+.sec3-contenido{
+    padding: 60px;
+}    
+    
+.sec3-contenido p {
+    font-size: 15px;
+}
+    
+.sec3-contenido h2 {
+    font-size: 15px;
+} 
+    
+.sec3-boton {
+    margin-top: 0px;
+    padding: 5px 15px;   
+}
+    
+/*-----------------*/ 
+/* ----seccion4-------*/
+.seccion4{
+    height: auto;
+    padding: 50px ;
+}
+    
+.sec4-h3{
+    font-size: 18px;
+}
+
+.sec4-h2{
+    font-size: 20px;
+     margin-bottom: 10px;
+}
+
+.sec4-parrafo1{
+    font-size: 14px;
+}
+    
+.sec4-parrafo2{
+     font-size: 13px;
+}
+
+.sec4-btn{
+    font-size: 11px;
+    padding: 5px 10px;
+}    
+.sec4-contenido{
+    width: auto;
+    height: auto;
+    float: none;
+}
+    
+.sec4-contemido2{
+    width: 100%;
+    height: auto;
+    float: none; 
+    padding: 10px; 
+}
+    
+.video{
+   margin-right: 0px;
+}
+ 
+/*-----------------*/  
+/* ----seccion5-------*/
+.section5{
+    height: 1100px;
+}
+    
+.sec5-cont-h3{
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.sec5-cont-h2{
+    font-size: 18px;
+}
+    
+.icon{
+    left: 30px;
+    top: 35px;
+    font-size: 60px;
+}    
+    
+.uno{
+    font-size: 50px;
+}
+
+.sec5-h3{
+    font-size: 15px;
+}
+
+.sec5-p{
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.filas{
+    height: 950px;        
+}
+
+.fila1{
+    width: 80%;
+    height: 200px;
+    margin: 20px;
+}    
+    
+/*-----------------*/     
+/* ----seccion6-------*/
+.seccion6{
+    width: 100%;
+    height: 1300px;
+}
+    
+.sec6-h3{
+    padding:50px 0px 10px 20px;
+    font-size: 20px;
+}
+.sec6-h2{
+    font-size: 20px;
+}
+  
+.sec6-fila{
+    width: 100%;
+    height: auto;
+}
+
+.fila1-1{
+    width: auto;
+    height: 350px;   
+}
+    
+.img-sec6-fila{
+    position: relative;
+    width: 95%;
+    height: auto;
+    z-index: 1px; 
+    margin-top: 0px;
+}
+    
+.cont1-sec6{
+    width: 80%;
+    height: 200px;
+    bottom: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    bottom: 40px;
+}
+
+.cont1-sec6 h3{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.sec6-lis{
+    padding-bottom: 25px;
+    font-size: 13px;
+}
+    .sec6-lis li{
+    line-height: 20px;
+} 
+
+.cont1-sec6 p{
+    font-size: 13px;
+    margin-top: 0px;
+    line-height: 15px;
+}
+/*-----------------*/    
+/* ----seccion7-------*/    
+.seccion7{
+    width: 100%;
+    height: 824px;
+    
+} 
+ .sec7{
+    width: 100%;
+    height: 50%;
+    padding: 50px 20px ;
+    float: none;
+}
+
+.sec7-imagen{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+/*-----------------*/    
+/*------seccion8------*/
+.footer{
+    float: left
+}
+    
+.footer-main{
+    width: 100%;
+    padding: 0px ;
+    color: #999999;
+    font-size: 14px;  
+    margin-top: 20px;
+}    
+    
+.main01{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin-top: 20px; 
+}
+
+
+.fot-cont-p{
+   font-size: 15px;  
+}
+/*-----------------*/ 
+    
+}
+@media screen and (min-width: 0px) and (max-width: 300px){
+/*------encabezado1-----------*/
+
+.encabezado{
+    
+    margin-bottom: -75px;
+    
+}
+.cont-inicial{
+    height: 50%;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px ;
+}
+    
+#icono-email{
+    float: none;
+    display: block;
+    padding: 10px 0px
+}
+
+.parr-2{
+    float: none;
+    display: block;
+    padding: 10px 0px 0px 0px;
+}
+/*-------------------------*/ 
+/*------encabezado2-----------*/ 
+
+    #menu-bar{
+        display: none;
+        
+    }
+    
+    
+    .logos-contenedor-1 label{
+        float: right;
+        font-size: 24px;
+        margin: 30px 0;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+    
+  .logos-contenedor{
+    height:100px;
+    width: 100%;
+    background: #223555;
+    color: white;
+    position: fixed;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+    
+}
+ .logos-contenedor-1{
+        width: 98%;
+        margin:auto;
+     display: table;
+        
+    }
+
+.logos{
+    width: 150px;
+    float: left;
+    margin-top: 15px;
+    padding-left: 10px;
+    
+}
+
+.menu-principal{
+    margin-top: 100px;
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    background: #223555;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+    
+}
+
+.menu-principal li{
+    display: block;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+    
+.menu-principal li:hover{
+        background: rgba(255,255,255,0.3);
+}
+
+#menu-bar:checked ~ .menu-principal {
+    transform: translateX(0%);
+}
+
+.icon-basket{
+    position: absolute;
+    right: -10px;
+    width: 50px;
+    height: 22px;
+    top: 30px;
+    margin-top: 0px;
+    padding: 0px 5px;
+    font-size: 13px;
+    line-height: 22px;
+    border-left: 1px solid #e0e0e0;
+    font-weight: 500;
+    color: #666666;
+}
+  
+/*-------------------------*/ 
+    
+/* --seccion-portada*/ 
+
+
+section .titulo, .parr-3, .parr-4, .boton-1{
+    margin-left: 40px;
+    
+}
+.titulo{
+    font-size: 28px;
+    line-height: 40px;
+}
+.boton-1{
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 40px;
+     padding: 15px 30px
+    
+}
+
+
+/*______________*/
+/* --seccion2*/  
+.seccion2{
+    height: 1100px;
+    padding: 50px 0px ;
+}  
+    
+.sec-caja1{
+    width: auto;
+    height: auto;
+    padding-left: 40px; 
+    
+}  
+.estilo1 {
+    font-size: 20px;
+    }
+
+.sec-caja2{
+    width: 100%;
+    height: auto;
+    padding-left: 40px; 
+}  
+.tex0{
+    font-size: 12px;
+}  
+    
+.estilo2 {
+    font-size: 24px;
+}
+.tex1{
+    margin-bottom: 0px;
+     font-size: 12px;
+}
+.tex2{
+    font-size: 12px;  
+}
+    
+.caja2-0-cont{
+    height: auto;
+    position: relative;
+    margin-top: 120px;
+    margin-right: 0px;
+    font-size: 14px; 
+}   
+
+.contenido-B{
+    width: auto;
+    top: 105px;
+    left: 0px;
+}    
+    
+.contenido-D {
+    width: auto;
+    top: 205px;
+    left: 0px;
+}
+   
+.sec-caja3{
+    width: 0%;
+    background-image:url();
+    position: none;
+}
+    
+/*-----------------*/        
+/* --seccion3*---*/
+ .sec0-imagen3{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+.sec1-imagen3{
+    width: 100%;
+    height: 50%;
+    float:none;  
+    padding-top: 70px;
+}   
+    
+.sec3-contenido{
+    padding: 30px;
+}   
+    
+.sec3-contenido p {
+    font-size: 15px;
+    display: inline-block;
+}
+    
+.sec3-contenido h2 {
+    font-size: 14px;
+} 
+    
+.sec3-boton {
+    font-size: 10px;
+    margin-top: 0px;
+    padding: 5px 15px;   
+}
+    
+/*-----------------*/ 
+/* ----seccion4-------*/
+.seccion4{
+    height: auto;
+    padding: 50px 5px 50px 40px ;
+}
+    
+.sec4-h3{
+    font-size: 18px;
+}
+
+.sec4-h2{
+    font-size: 18px;
+    line-height: 2.4em;
+    margin-bottom: 0px;
+}
+
+.sec4-parrafo1{
+    font-size: 14px;  
+}
+    
+.sec4-parrafo2{
+     font-size: 12px;
+     margin-bottom: 20px;
+}
+
+.sec4-btn{
+    font-size: 10px;
+    margin-bottom: 10px;
+    padding: 5px 15px;
+}
+     
+.sec4-contenido{
+    width: auto;
+    height: auto;
+    float: none;
+}
+    
+.sec4-contemido2{
+    width: 100%;
+    height: auto;
+    float: none; 
+    padding: 0px; 
+}
+    
+.video{
+   margin-right: 0px;
+}
+
+/*-----------------*/        
+/* ----seccion5-------*/
+.section5{
+    height: 1100px;
+}
+    
+.sec5-cont-h3{
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.sec5-cont-h2{
+    font-size: 18px;  
+    line-height: 2.4em;
+}
+    
+.icon{
+    left: 20px;
+    top: 30px;
+    font-size: 50px;
+}    
+    
+.uno{
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.sec5-h3{
+    font-size: 15px;   
+}
+
+.sec5-p{
+    font-size: 12px;
+    line-height: 1em;
+}
+
+.filas{
+    height: 900px;   
+}
+
+.fila1{
+    width: 80%;
+    height: 200px;
+    margin: 10px;
+} 
+    
+/*-----------------*/  
+/* ----seccion6-------*/
+.seccion6{
+    width: 100%;
+    height: 1050px;
+}
+    
+.sec6-h3{
+    padding:50px 0px 10px 20px;
+    font-size: 20px;
+}
+    
+.sec6-h2{
+    font-size: 20px;
+}
+  
+.sec6-fila{
+    width: 100%;
+    height: auto;
+}
+
+.fila1-1{
+    width: auto;
+    height: 300px;   
+}
+    
+.img-sec6-fila{
+    position: relative;
+    width: 85%;
+    height: auto;
+    z-index: 1px; 
+    margin-top: 0px;
+}
+    
+.cont1-sec6{
+    width: 75%;
+    height: 200px;
+    bottom: 30px;
+    margin-right: 20px;
+    padding: 15px;
+    bottom: 40px;
+}
+
+.cont1-sec6 h3{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.sec6-lis{
+    padding-bottom: 25px;
+    font-size: 12px;
+}
+    
+.sec6-lis li{
+    line-height: 20px;
+}    
+
+.cont1-sec6 p{
+    font-size: 12px;
+    margin-top: 0px;
+    line-height: 15px;
+}
+    
+/*-----------------*/      
+/* ----seccion7-------*/    
+.seccion7{
+    width: 100%;
+    height: 824px;   
+} 
+    
+ .sec7{
+    width: 100%;
+    height: 50%;
+    padding: 50px 20px ;
+    float: none;
+}
+    
+.sec7-h3 {
+    font-size: 20px;
+}
+    
+.for1-1{
+    font-size: 12px;
+    padding: 10px ;
+}
+
+.for2-1{
+    font-size: 12px;
+    padding: 10px ;
+}
+    
+.sec7-btn{
+    font-size: 10px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+    
+.sec7-imagen{
+    width: 100%;
+    height: 50%;
+    float: none;
+}
+    
+/*-----------------*/
+/*------seccion8------*/
+    
+.footer{
+    float: left
+}
+.footer-main{
+    width: 100%;
+    padding: 0px ;
+    color: #999999;
+    font-size: 14px;  
+    margin-top: 20px;  
+}    
+    
+.main01{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin-top: 20px; 
+}
+.main-logos{
+    margin-top: -5px;
+}
+
+.fot-cont-p{
+   font-size: 15px;   
+}
+    
+ .footer-autor{
+    font-size: 12px;
+}   
+
+/*-----------------*/  
+    
+}
